@@ -1,6 +1,6 @@
 const Head = () => (
   <>
-    <title>Just Fix It of SWFL</title>
+    <title>Big Johnson's Old Wood</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" />
   </>

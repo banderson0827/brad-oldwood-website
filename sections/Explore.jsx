@@ -27,7 +27,7 @@ const Explore = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Gallery" textStyles="text-center" />
+      <TypingText title="| This is the bread and butter!" textStyles="text-center" />
       <TitleText title={<>View our work </>} textStyles="text-center" />
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}

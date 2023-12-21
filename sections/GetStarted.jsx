@@ -21,16 +21,16 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/modern-home.png"
-          alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          src="/wood-table.png"
+          alt="wood-table"
+          className="w-[100%] h-[100%] object-contain -ml-44"
         />
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| Explore Just Fix It" />
+        <TypingText title="| Let's get acquainted!" />
         <TitleText title={<>Get started with just a few clicks</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (

@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-slate-900 ${scrolled ? 'bg-transparent' : 'bg-slate-900'}`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary-blue ${scrolled ? 'bg-transparent' : 'bg-primary-blue'}`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="/title-logo.png" alt="logo" className="w-9 h-9 rounded-md object-contain" />
+          <img src="/oldwood-small.png" alt="logo" className="w-9 h-9 rounded-full object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Just Fix It &nbsp;
-            <span className="sm:block hidden">of SWFL</span>
+            Big Johnson's &nbsp;
+            <span className="sm:block hidden">Old Wood</span>
           </p>
         </Link>
 
@@ -54,8 +54,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? 'text-cyan-400' : 'text-white'
-              } hover:text-cyan-400 text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? 'text-primary-darkbrown' : 'text-white'
+              } hover:text-primary-lightbrown text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -83,7 +83,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? 'text-cyan-400' : 'text-white'
+                    active === nav.title ? 'text-primary-darkbrown' : 'text-white'
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

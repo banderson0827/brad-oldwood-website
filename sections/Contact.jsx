@@ -59,10 +59,10 @@ const Contact = () => {
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden" id="contact">
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] bg-slate-900 p-8 rounded-2xl"
+        className="flex-[0.75] bg-primary-darkbrown p-8 rounded-2xl"
       >
-        <p className={`${styles.sectionSubText} text-gray-500`}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Request a FREE Estimate</h3>
+        <p className={`${styles.sectionSubText} text-gray-500`}>Let's make it happen</p>
+        <h3 className={styles.sectionHeadText}>Send us your idea!</h3>
 
         <form
           ref={formRef}
@@ -77,7 +77,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-slate-700 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-primary-lightbrown py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
 
@@ -89,7 +89,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-slate-700 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-primary-lightbrown py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
 
@@ -101,13 +101,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-slate-700 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-primary-lightbrown py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
 
           <button
             type="submit"
-            className="bg-slate-700 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-primary-lightbrown py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? 'Sending...' : 'Send'}
           </button>

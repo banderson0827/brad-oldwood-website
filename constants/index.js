@@ -54,7 +54,7 @@ export const navLinks = [
 export const startingFeatures = [
   'Check out the "About" section to learn more about us.',
   'View the "Gallery" to see our work for yourself.',
-  'Go to "Contact" to submit a free estimate request and get your project started!',
+  'Go to "Contact" to submit your project idea and we\'ll take care of the rest!',
 ];
 
 export const newFeatures = [
