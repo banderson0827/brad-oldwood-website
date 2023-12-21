@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import Image from 'next/image';
+import Link from 'next/link';
 
 import styles from '../styles';
 import { navLinks } from '../constants';
@@ -11,20 +12,22 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
+  if (typeof window !== 'undefined') {
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        if (scrollTop > 100) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      };
 
-    window.addEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+  }
 
   return (
     <nav
@@ -32,17 +35,17 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          href="/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive('');
             window.scrollTo(0, 0);
           }}
         >
-          <img src="/BAlogo.svg" alt="logo" className="w-9 h-9 object-contain" />
+          <img src="/title-logo.png" alt="logo" className="w-9 h-9 rounded-md object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Just Fix It &nbsp;
-            <span className="sm:block hidden"> of SWFL</span>
+            <span className="sm:block hidden">of SWFL</span>
           </p>
         </Link>
 
@@ -61,9 +64,11 @@ const Navbar = () => {
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
+          <Image
             src={toggle ? '/close.svg' : '/menu1.svg'}
             alt="menu"
+            width="28"
+            height="28"
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
