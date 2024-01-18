@@ -15,7 +15,7 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex justify-center items-center flex-col relative -mt-60 md:-mt-40 lg:-mt-48 z-10">
+      <div className="flex justify-center items-center flex-col relative -mt-[480px] md:-mt-40 lg:-mt-48 z-10">
         <motion.div
           variants={slideIn('left', 'tween', 0.2, 1)}
           className="flex justify-center items-center"

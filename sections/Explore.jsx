@@ -44,7 +44,7 @@ const Explore = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex justify-center items-center flex-col`}
+      className={`${styles.innerWidth} mx-auto flex flex-col items-center`}
     >
       <TypingText title="| This is the bread and butter!" textStyles="text-center" />
       <TitleText title={<>View our work </>} textStyles="text-center" />
@@ -52,7 +52,7 @@ const Explore = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         initial="hidden"
         whileInView="show"
-        className="relative w-[600px] md:mt-6 mt-4 items-center flex-col"
+        className="relative w-full md:w-[600px] md:mt-6 mt-4 flex flex-col items-center"
       >
         <p className="text-center text-white text-2xl mb-2 mt-2">See the whole process...</p>
         <ImageCarousel images={images1} />

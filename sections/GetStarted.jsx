@@ -23,7 +23,7 @@ const GetStarted = () => (
         <img
           src="/wood-table.png"
           alt="wood-table"
-          className="w-[100%] h-[100%] object-contain -ml-44"
+          className="w-[100%] h-[100%] object-contain -ml-8 md:-ml-44"
         />
       </motion.div>
       <motion.div
