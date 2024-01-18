@@ -21,26 +21,35 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-primary-lightbrown"
       >
-        <span className="font-extrabold text-primary-darkbrown">Just Fix It of SWFL </span>
-        is a
-        <span className="font-extrabold text-primary-darkbrown"> family owned</span>
-        , licensed and insured General Contractor dedicated to transforming your home or business into the
-        <span className="font-extrabold text-primary-darkbrown"> space of your dreams</span>
-        . Our team of experienced professionals is committed to providing
-        <span className="font-extrabold text-primary-darkbrown"> high-quality workmanship </span>
-        and exceptional customer service to ensure your
-        <span className="font-extrabold text-primary-darkbrown"> complete satisfaction</span>
-        . Whether you're looking to update your kitchen, remodel your bathroom, or create a custom space for your business, our team has the expertise to
-        <span className="font-extrabold text-primary-darkbrown"> bring your vision to life</span>
-        . We understand that every project is unique, and we work closely with our clients to create
-        <span className="font-extrabold text-primary-darkbrown"> customized solutions </span>
-        that meet their specific needs and budget. We pride ourselves on our
-        <span className="font-extrabold text-primary-darkbrown"> attention to detail </span>
-        and commitment to excellence. We use only the
-        <span className="font-extrabold text-primary-darkbrown"> highest quality materials </span>
-        and work with trusted suppliers and contractors to ensure that every project is completed to the highest standards. Thank you for considering Just FixIt of SWFL for your next project. We look forward to working with you and
-        <span className="font-extrabold text-primary-darkbrown"> making your vision reality</span>
-        !
+        Welcome to
+        <span className="font-extrabold text-primary-darkbrown"> Big Johnson's Old Wood</span>
+        , where
+        <span className="font-extrabold text-primary-darkbrown"> craftmanship </span>
+        meets
+        <span className="font-extrabold text-primary-darkbrown"> history</span>
+        . We specialize in transforming well-maintained,
+        <span className="font-extrabold text-primary-darkbrown"> aged wood slabs </span>
+        into
+        <span className="font-extrabold text-primary-darkbrown"> exquisite custom pieces</span>
+        . Our passion lies in creating unique
+        <span className="font-extrabold text-primary-darkbrown"> tables, bar tops, mantles, and more</span>
+        , each telling a story through the grain and
+        <span className="font-extrabold text-primary-darkbrown"> character of the wood</span>
+        . With a commitment to preserving the legacy of these 
+        <span className="font-extrabold text-primary-darkbrown"> timeless materials</span>
+        , our skilled artisans bring
+        <span className="font-extrabold text-primary-darkbrown"> decades of expertise </span>
+        to every creation. At Big Johnson's Old Wood, we blend
+        <span className="font-extrabold text-primary-darkbrown"> tradition </span>
+        with
+        <span className="font-extrabold text-primary-darkbrown"> innovation</span>
+        , ensuring that each
+        <span className="font-extrabold text-primary-darkbrown"> bespoke piece </span>
+        not only
+        <span className="font-extrabold text-primary-darkbrown"> enriches your space </span>
+        but becomes a
+        <span className="font-extrabold text-primary-darkbrown"> cherished part of your family's story</span>
+        .
       </motion.p>
 
       <motion.img

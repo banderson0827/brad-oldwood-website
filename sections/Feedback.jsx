@@ -39,7 +39,7 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-primary-darkbrown">
-          Our goal is to build strong client relationships, ensuring your unique vision comes to life, on time and within budget.Thank you for considering Just Fix It of SWFL. We look forward to creating something truly exceptional with you!
+          We're dedicated to crafting unique, family-inspired pieces from aged wood. Join us in celebrating the beauty of craftsmanship and the timeless elegance of reclaimed wood at Big Johnson's, where every piece has a story to tell.
         </p>
       </motion.div>
 
@@ -48,8 +48,8 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/feedback-temp.jpeg"
-          alt="upgraded bathroom"
+          src="/double-mantle.jpeg"
+          alt="fireplace mantle"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
       </motion.div>

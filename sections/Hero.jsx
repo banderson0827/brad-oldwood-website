@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { slideIn, staggerContainer } from '../utils/motion';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} mt-64 px-10`} id="home">
@@ -35,11 +35,11 @@ const Hero = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:mt-6 mt-4"
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+        <div className="absolute w-full h-[400px] hero-gradient rounded-tl-[140px] z-0 -top-[30px]" />
         <img
-          src="/hero-temp.jpeg"
+          src="/bartop.jpeg"
           alt="hero cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          className="w-full sm:h-[600px] h-[500px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
         <a href="#explore">

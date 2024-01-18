@@ -27,6 +27,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Need to change to brad@bigjohnsonsoldwood.com once email is active
     emailjs.send(
       'service_5fq28e4',
       'template_r6xe2si',
