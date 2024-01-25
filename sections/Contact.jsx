@@ -37,13 +37,13 @@ const Contact = () => {
 
     // Need to change to brad@bigjohnsonsoldwood.com once email is active
     emailjs.send(
-      'service_5fq28e4',
+      'service_0678yaq',
       'template_r6xe2si',
       {
         from_name: form.name,
         to_name: 'Brad Johnson',
         from_email: form.email,
-        to_email: 'brad@justfixitofswfl.com',
+        to_email: 'brad@bigjohnsonsoldwood.com',
         message: form.message,
       },
       'NMlq6imWrYH2oszGg',
