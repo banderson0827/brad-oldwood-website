@@ -35,10 +35,9 @@ const Contact = () => {
 
     setLoading(true);
 
-    // Need to change to brad@bigjohnsonsoldwood.com once email is active
     emailjs.send(
       'service_0678yaq',
-      'template_r6xe2si',
+      'template_r6vmoho',
       {
         from_name: form.name,
         to_name: 'Brad Johnson',
