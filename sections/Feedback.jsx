@@ -48,7 +48,7 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/double-mantle.jpeg"
+          src="/shell-table.jpeg"
           alt="fireplace mantle"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />

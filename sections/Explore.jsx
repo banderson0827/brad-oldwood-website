@@ -26,7 +26,7 @@ const images3 = [
   '/double-mantle.jpeg',
 ];
 const images4 = [
-  
+  '/shell-table.jpeg',
   '/greentable-1.jpeg',
   '/greentable-2.jpeg',
   '/greentable-3.jpeg',
@@ -35,6 +35,29 @@ const images4 = [
   '/woodstock-2.jpeg',
   '/bartop.jpeg',
   '/bluetable.jpeg',
+  '/credenza-1.jpg',
+  '/credenza-2.jpg',
+  '/credenza-3.jpg',
+  '/credenza-4.jpg',
+  '/credenza-5.jpg',
+  '/credenza-6.jpg',
+  '/dining-table.jpeg',
+  '/small-table-1.jpeg',
+  '/small-table-2.jpeg',
+];
+const images5 = [
+  '/round-pre-1.jpg',
+  '/round-pre-2.jpg',
+  '/round-pre-3.jpg',
+  '/round-pre-4.jpg',
+  '/round-pre-5.jpg',
+  '/round-pre-6.jpg',
+  '/round-start-2.jpg',
+  '/round-start-1.jpg',
+  '/round-start-4.jpg',
+  '/round-complete-3.jpg',
+  '/round-complete-1.jpg',
+  '/round-final.jpeg',
 ];
 
 const Explore = () => (
@@ -64,6 +87,8 @@ const Explore = () => (
           <p className="text-center text-white text-2xl mb-2 mt-2">...to finish!</p>
         </div>
         <ImageCarousel images={images3} />
+        <div className="h-[175px] w-full items-center justify-center flex" />
+        <ImageCarousel images={images5} />
         <div className="h-[175px] w-full items-center justify-center flex">
           <p className="text-center text-white text-2xl mb-2 mt-2">Assorted Gallery</p>
         </div>
